@@ -9,7 +9,8 @@ This plugin accepts 'action' parameter with 'show_url' value and returns list of
 1. Go to the Plugins administration page `( eg http://sho.rt/admin/plugins.php )` and activate the plugin.
 
 ## Usage
-You can get all URLs in JSON format by addressing `http://<your.domain>/yourls-api.php?username=<username>&password=<password>&action=show_url&format=json` link where you provide your own domain, YOURLS username and password
+* You can get all URLs in JSON format by addressing `http://<your.domain>/yourls-api.php?username=<username>&password=<password>&action=show_url&format=json` link where you provide your own domain, YOURLS username and password
+* You can create CURL session as shown [in official documentation](https://yourls.org/#API)
 
 ## License
 YOURLS' license, aka "Do whatever the hell you want with it".
